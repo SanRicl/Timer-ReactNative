@@ -43,7 +43,7 @@ const FocusHistory = ({ focusHistory, onClear }) => {
 
 const style = StyleSheet.create({
   historyItem: (status) => ({
-    color: status > 1 ? "red" : "green",
+    color: status > 1 ? "#ff0000" : "#fff",
     fontSize: fontSizes.md,
     marginTop: spacing.md
   }),
