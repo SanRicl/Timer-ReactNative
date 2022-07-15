@@ -54,9 +54,11 @@ export const Countdown = ({ minutes = 0.1, isPaused, onProgress, onEnd }) => {
 const styles = StyleSheet.create({
   text: {
     fontSize: fontSizes.xxxl,
-    fontWeight: 'bold',
+    fontWeight: "bold",
     color: colors.white,
     padding: spacing.lg,
-    backgroundColor: 'rgba(94, 132, 226, 0.3)',
+    backgroundColor: "rgba(94, 132, 226, 0.3)",
+    borderRadius: spacing.sm,
+    overflow: "hidden",
   },
 });
